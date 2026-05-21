@@ -2,33 +2,43 @@
 
 ### Overall Estimated Duration: 4 Hours
 
-## Overview
+## 📘 Lab Scenario
 
-In this lab, you will learn how to create and publish Power BI dashboards and reports. Utilizing a pre-created report, you will go through the steps to publish it to the Power BI Service. The lab covers essential skills such as applying conditional formatting, adding logos, importing custom visuals, and applying custom themes. Additionally, you will explore how to use bookmarks to enhance storytelling within your reports. Detailed instructions, along with visual aids and screenshots, guide you through each step of the process, ensuring you gain practical experience with Power BI's powerful features.
+You are a Business Intelligence Analyst working with VanArsdel, a fictional manufacturing company used in Power BI sample datasets. The management team wants to improve business reporting and data visualization using **Microsoft Power BI**.
 
-## Objective
+In this lab, you will enhance a pre-created Power BI report by applying **conditional formatting**, adding **company branding and logos**, importing **custom visuals**, and applying a **custom theme**. You will also use **bookmarks** to improve report storytelling and navigation.
+
+Finally, you will **publish the report to Power BI Service** and create a **dashboard** to share important business insights with stakeholders.
+
+## 📖 Overview
+
+In this lab, you will learn how to **create** and **publish Power BI dashboards** and **reports**. Utilizing a pre-created report, you will go through the steps to publish it to the **Power BI Service**. The lab covers essential skills such as applying **conditional formatting**, **adding logos**, **importing custom** **visuals**, and applying **custom themes**. Additionally, you will explore how to use **bookmarks** to enhance storytelling within your reports. Detailed instructions, along with visual aids and screenshots, guide you through each step of the process, ensuring you gain practical experience with Power BI's powerful features.
+
+## 🎯 Objectives
 
 Understand report creation and dashboard management in Power BI. By the end of this lab, you will gain insights on:
 
 - **Create and Publish a Report:** Develop a comprehensive Power BI report, incorporating conditional formatting, custom visuals, themes and publish it to the Power BI Service.
+
 - **Build and Organize a Dashboard:** Construct and organize a Power BI dashboard to effectively visualize and present data from the report.
+
 - **Enhance Report Presentation:** Utilize features such as custom logos, conditional formatting, and bookmarks to create an engaging and informative report narrative.
 
-## Pre-requisites
+## ⚙️ Pre-requisites
 
 - Basic Knowledge of Power BI
 - Access to Power BI Desktop and Service
 - Understanding of Report Design Principles
 
-## Architecture
+## 🏗️ Architecture
 
 In this lab, you'll start with a pre-created Power BI report and follow a structured process to enhance and publish it. Initially, you will apply conditional formatting to highlight important data points within the report. Next, you'll add logos to the visuals and filters to incorporate branding elements. After that, you'll import and integrate custom visuals to enrich the data representation. You will then apply a custom theme to ensure the report aligns with specific design guidelines. To enhance storytelling, you'll use bookmarks to create a narrative flow within the report. Finally, you'll publish the completed report to the Power BI Service for sharing and collaboration. Detailed instructions and visual aids will guide you through each step, ensuring you gain practical experience with Power BI's features.
 
-## Architecture Diagram
+## 🖼️ Architecture Diagram
 
 ![image](../Images/arch1.PNG )
 
-## Explanation of Components
+## 🔍 Explanation of Components
 
 - **Pre-Created Report:** A Power BI report with existing data and visuals, used as the foundation for further customization and enhancement tasks.
 
@@ -38,41 +48,45 @@ In this lab, you'll start with a pre-created Power BI report and follow a struct
 
 - **Power BI Service:** The cloud-based platform where the completed report is published for sharing, collaboration, and online access.
   
-## Getting Started with the Lab
+## 🚀 Getting Started with the Lab
+
+Welcome to your Power BI Dashboard and Report Creation Lab! In this lab, you will enhance and publish interactive reports using Microsoft Power BI. Using the fictional VanArsdel dataset, you will apply custom formatting, themes, visuals, and bookmarks to create engaging business dashboards and reports.
+
+### Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-  ![02](../Images/GS1.png)
+![02](../Images/GS1.png)
 
-## Virtual Machine & Lab Guide
+### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## Exploring Your Lab Resources
+### Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![image](../Images/env.png)
+![image](../Images/env-new.png)
 
-## Utilizing the Split Window Feature
+### Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-   ![image](../Images/split.png)
+![image](../Images/split-win-new.png)
    
-## Managing Your Virtual Machine
+### Managing Your Virtual Machine
 
 On the **Resources (1)** tab, use the **Action buttons (2)** next to your VM. Feel free to **start**, **stop**, or **restart** your Virtual Machine as needed. Your experience is in your hands!
 
-   ![image](../Images/power-04new.png)
+![image](../Images/power-04new.png)
 
-## Lab Guide Zoom In/Zoom Out
+### Lab Guide Zoom In/Zoom Out
 
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
-   ![image](../Images/zoomnew1.png)
+![image](../Images/zoomnew1.png)
 
-## Let's Get Started with Power BI Portal
+## 📊 Let's Get Started with Power BI Portal
  
 1. On the Lab VM, open **Microsoft Edge** from the desktop. In a new tab, navigate to **Microsoft Fabric** by copying and pasting the following URL into the address bar:
 
@@ -138,16 +152,17 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![02](../Images/image1079.png)
 
-## Support Contact
+## 📞 Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
 Learner Support Contacts:
 
 - Email Support: cloudlabs-support@spektrasystems.com
-  
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Click **Next** from the bottom right corner to embark on your Lab journey!
+
+![02](../Images/lab-next-button.png)
 
 ## Happy Learning!!
