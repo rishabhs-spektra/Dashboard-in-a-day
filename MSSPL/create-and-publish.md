@@ -52,7 +52,6 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
 1. Once the **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace is created, navigate to **Manage Access (1)** to configure user permissions and access levels.
 
-
     ![](../Images/manageaccess.png)
 
 1. On the **Manage Access** window, click on **+Add people or groups (1)** to add new users or service principals to your workspace.
