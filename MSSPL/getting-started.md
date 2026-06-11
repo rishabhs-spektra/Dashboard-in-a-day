@@ -94,15 +94,15 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
    https://app.powerbi.com/
    ```
 
-2. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
+2. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit (2)**.
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
      ![image](../Images/GSlogin.png)
 
-3. Now enter the following temporary access password and click on **Sign in**.
+3. Now enter the following temporary access password and click on **Sign in (2)**.
  
-   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
      ![image](../Images/GS3.png)
      
@@ -118,7 +118,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
     ![02](../Images/15.png) 
 
-1. In the **Tenant settings** (**(1)**), search for **map** **(2)**, then expand the **Map and filled map visuals** **(3)**. If the toggle is not already enabled, switch it to **Enabled** **(4)**, and click **Apply** **(5)** to save the changes. If it is already enabled, the Apply button will be disabled and you will not be able to click it.
+1. In the **Tenant settings** **(1)**, search for **map** **(2)**, then expand the **Map and filled map visuals** **(3)**. If the toggle is not already enabled, switch it to **Enabled** **(4)**, and click **Apply** **(5)** to save the changes. If it is already enabled, the Apply button will be disabled and you will not be able to click it.
 
     ![](../Images/image103.png) 
 
