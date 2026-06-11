@@ -86,6 +86,39 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
 ![image](../Images/zoomnew1.png)
 
+## 📊 Let's Get Started with Power BI Desktop
+
+1. Open the **Power BI Desktop** located on the desktop of your lab environment.
+
+    ![](../Images/image105.png) 
+
+1. Click on the **Sign-in icon** located in the top-right corner.
+
+    ![](../Images/image200.png) 
+
+1. Once the "Enter your email address" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
+
+   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
+
+     ![02](../Images/image106.png)
+
+1. After clicking Continue, you will be prompted to sign in again. Use the credentials provided below to sign in, and then click **Next (2)** to proceed.
+
+   * **Email/Username**: <inject key="AzureAdUserEmail"></inject> **(1)**
+
+     ![02](../Images/image101.png)
+
+1. Enter the temporary access password and click on **Sign in (2)**
+
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
+
+     ![02](../Images/GS3.png)
+
+1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
+
+   ![02](../Images/image1079.png)
+
+
 ## 📊 Let's Get Started with Power BI Portal
  
 1. On the Lab VM, open **Microsoft Edge** from the desktop. In a new tab, navigate to **Microsoft Fabric** by copying and pasting the following URL into the address bar:
@@ -118,39 +151,9 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
     ![02](../Images/15.png) 
 
-1. In the **Tenant settings** **(1)**, search for **map** **(2)**, then expand the **Map and filled map visuals** **(3)**. If the toggle is not already enabled, switch it to **Enabled** **(4)**, and click **Apply** **(5)** to save the changes. If it is already enabled, the Apply button will be disabled and you will not be able to click it.
+1. In **Tenant settings (1)**, search for **map (2)** and expand **Map and Filled Map visuals (3)**. Verify that the Map and Filled Map visuals setting is enabled, as it is required for Power BI to render geographic Map and Filled Map visuals in reports. If the setting is disabled, switch the toggle to **Enabled (4)** and click **Apply (5)** to save the changes. If the setting is already enabled, the Apply button will be disabled and no further action is required.
 
     ![](../Images/image103.png) 
-
-1. Open the **Power BI Desktop** located on the desktop of your lab environment.
-
-    ![](../Images/image105.png) 
-
-1. Click on the **Sign-in icon** located in the top-right corner.
-
-    ![](../Images/image200.png) 
-
-1. Once the "Enter your email address" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
-
-   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
-
-     ![02](../Images/image106.png)
-
-1. After clicking Continue, you will be prompted to sign in again. Please use the credentials provided below to log in.
-
-   * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
-
-     ![02](../Images/image101.png)
-
-1. Enter the temporary access password and **Sign in**
-
-   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
-
-     ![02](../Images/GS3.png)
-
-1. For the pop-up **Automatically sign in to all desktop apps and websites on this device?** window, select **No,this app only**
-
-   ![02](../Images/image1079.png)
 
 ## 📞 Support Contact
 
