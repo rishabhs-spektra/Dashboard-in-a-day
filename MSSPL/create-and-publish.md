@@ -20,9 +20,58 @@ In this lab, you'll use a pre-built Power BI report to publish it to the Power B
 
 In this task, you will open a Power BI report, enable map visuals, adjust the mobile layout, create a workspace, and publish the report to the Power BI Service.
 
-1. From the toolbar, open **File Explorer** and navigate to `C:\DIAD\DIADL4\Reports` in the LabVM.
+1. In the left-hand navigation pane of the Power BI interface, select **Workspaces** to view and manage your available workspaces.
+   
+    ![](../Images/powerbinew_task1_step12.png)
 
-1. Open the **DIAD Final Report.pbix** file. 
+1. Click on **+ New workspace** at the bottom of the Workspaces pane. This will open the **Create a workspace** dialog box.
+
+    ![](../Images/image108.png)
+
+1. On the **Create a workspace** page, provide the following details.
+
+    - In the **Name** field, enter **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**.
+
+    - In the **Description** field, type **This is DIAD workspace (2)**.
+
+    - Click **Upload (3)** to upload an image that will serve as the workspace logo and help identify your workspace visually.
+
+        ![](../Images/image111.png)
+
+1. A file browser dialog box will open. Browse to the **DIAD** folder, then navigate to the **Data** folder at `C:\DIAD\DIADL4\Data`. Select the **VanArsdel\_WSLogo** **(1)** file and click **Open** **(2)**.
+
+      ![](../Images/pr8.png)
+
+1. Click **Apply** to finalize and create the workspace with your configured settings.
+
+    ![02](../Images/image110.png)
+
+    > 📌 **Note:** If prompted about a license, select **Try Free** to proceed.
+
+    ![02](../Images/image112.png)
+
+1. Once the **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace is created, navigate to **Manage Access (1)** to configure user permissions and access levels.
+
+
+    ![](../Images/manageaccess.png)
+
+1. On the **Manage Access** window, click on **+Add people or groups (1)** to add new users or service principals to your workspace.
+
+    ![](../Images/add.png)
+
+1. On the **+Add people or groups** window, search for the service principal using `https://cloudlabs-v2.ai/` and select it from the search results.
+
+1. In the Add people pane, after selecting the service principle **(1)**, select the appropriate role from the drop down. Choose **Admin (2)** to grant administrative permissions, and then click **Add (3)** to confirm. Make sure that is listed on the **Manage access** window.
+
+     ![](../Images/admin.png)
+
+1. On the **Manage Access** page, you should see that your account and service principle is listed as an **Admin**.
+
+    ![](../Images/E1T1S21.png)
+
+1. Navigate back to the VM and open **File Explorer** from the toolbar. Navigate to `C:\DIAD\DIADL4\Reports` to locate your report files.
+
+1. Open the **DIAD Final Report.pbix** file to begin preparing it for publication. 
 
    ![](../Images/pb8upd.png) 
 
@@ -46,33 +95,35 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
     - From the left-hand side pane, click on **Security** **(1)**, then under **Map and Filled Map visuals**, check **Use Map and Filled Map visuals** **(2)**, and click **OK** **(3)** to apply the changes.
 
+        >By enabling the Map and Filled Map visuals setting, Power BI will be able to render geographic visualizations in your report. This setting is required for map-based visuals to display correctly.
+
       ![](../Images/pr35.png) 
 
-1. Highlight the **MARKET ANALYSIS (1)** title, then from the text formatting toolbar, click the font color **dropdown (2)**, and select the **black (3)** color from Theme colors.
+1. Enhance the report title by selecting the **MARKET ANALYSIS (1)** title text. From the text formatting toolbar, click the font color **dropdown (2)**, and select **black (3)** color from the Theme colors palette to improve visibility.
 
    ![](../Images/image202.png) 
 
-1. From the top menu, click the **View (1)** tab, then click **Mobile layout (2)**.
+1. To optimize your report for mobile devices, click the **View (1)** tab in the top menu, then select **Mobile layout (2)** to enter the mobile design mode.
 
    ![](../Images/powerbinew_task1_step5.png) 
 
-   > 📌 **Note:** If **The mobile layout canvas is now interactive** pop-up comes up, click on **Close**.
+   > 📌 **Note:** If a pop-up stating **"The mobile layout canvas is now interactive"** appears, click on **Close** to dismiss it.
 
-1. Drag the **MARKET ANALYSIS** title to the top of the phone layout.
+1. In the mobile layout view, drag the **MARKET ANALYSIS** title to the top of the phone layout to ensure it's the first element users see on mobile devices.
 
    ![](../Images/pr3.png)
 
    ![](../Images/pb12.png)   
 
-   > 📌 **Note:** You can change the size of the text for better alignment.
+   > 📌 **Note:** You can adjust the size of the text for better visual alignment on the mobile screen.
 
-   > 📌 **Note:** If you receive any pop-up, click on **Close**.
+   > 📌 **Note:** If any additional pop-ups appear, click on **Close** to dismiss them.
 
 1. Click on the **View** **(1)** tab and turn on the **Selection** **(2)** pane by clicking on it. This allows you to change the layer order while creating a mobile layout.
 
    ![](../Images/pr6.png)
 
-2. While still in the **View** **(1)** tab, turn off **Gridlines** and **Snap to Grid** **(2)**, and also turn off the **Selection pane** **(3)**.
+2. While still in the **View** **(1)** tab, turn off **Gridlines** and **Snap to Grid** **(2)**, and also turn off the **Selection pane** **(3)** once you've finished layering your elements.
 
    ![](../Images/powerbinew_task1_step8.png)
 
@@ -80,69 +131,19 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
    ![](../Images/202.png)
 
-1. Drag the **Revenue by Country** below the line chart on the phone layout, resize the map.
+1. Drag the **Revenue by Country** map visual below the line chart on the phone layout. Resize the map to fit appropriately within the mobile screen dimensions.
 
    ![](../Images/image203upd.png)
 
-1. Click the **Save** icon from the top-left corner to save your workbook.
+1. Click the **Save** icon from the top-left corner to save your workbook with all the changes you've made.
 
    ![](../Images/image204.png)
 
-1. Navigate to the browser where Power BI is open. In the left-hand panel of the Power BI interface, click on **Workspaces** **(1)** to view and manage your available workspaces.
-   
-    ![](../Images/powerbinew_task1_step12.png)
-
-1. Click on **+ New workspace** at the bottom of the Workspaces pane. This will open the **Create a workspace** dialog box.
-
-    ![](../Images/image108.png)
-
-1. On the **Create a workspace** page, provide the following details.
-
-    - In the **Name** field, type **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)**.
-
-    - In the **Description** field, type **This is DIAD workspace (2)**.
-
-    - Click **Upload (3)**.
-
-      ![](../Images/image111.png)
-
-1. A file browser dialog box will open. Browse to the **DIAD** folder, then navigate to the **Data** folder at `C:\DIAD\DIADL4\Data`. Select the **VanArsdel\_WSLogo** **(1)** file and click **Open** **(2)**.
-
-      ![](../Images/pr8.png)
-
-1. Click **Apply** to create the workspace.
-
-    ![02](../Images/image110.png)
-
-    ![02](../Images/image112.png)
-
-   > 📌 **Note** If it asks about licence select **Try Free**.
-
-1. Once the **DIAD_<inject key="DeploymentID" enableCopy="false"/>** is created, navigate to **Manage Access (1)**.
-
-    ![](../Images/manageaccess.png)
-
-1. On the **Manage Access** window, click on **+Add people or groups (1)**.
-
-    ![](../Images/add.png)
-
-1. On the **+Add people or groups** window, search with `https://cloudlabs-v2.ai/` service principle and select it.
-
-1. In the Add people pane once selecting the service principle **(1)**, select the appropriate role from **Admin (2)**, and then click **Add (3)**. Make sure that is listed on the **Manage access** window.
-
-     ![](../Images/admin.png)
-
-1. On the **Manage Access** page, you should see that your account and service principle is listed as an **Admin**.
-
-    ![](../Images/E1T1S21.png)
-
-1. Let’s publish the report to the Power BI Service, then return to the browser . First, open the **DIAD Final Report** in Power BI Desktop.
-
-1. Ensure **Mobile layout** is **turned off** by deselecting the **Mobile layout** option in the View tab.
+1. Before publishing, ensure that **Mobile layout** is **turned off** by deselecting the **Mobile layout** option in the View tab. This returns the report to the standard desktop view.
 
     ![](../Images/image201.png)
 
-1. From the **Home (1)** tab, click on **Publish (2)**.
+1. From the **Home (1)** tab in the top ribbon, click on **Publish (2)** to publish your report to the Power BI Service.
 
     ![](../Images/image205upd.png)
 
@@ -150,19 +151,19 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
     ![](../Images/image206.png)
 
-1. In the **Publish to Power BI** dialog box, select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** and then click **Select (2)**.
+1. In the **Publish to Power BI** dialog box, select **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** from the dropdown list to specify your target workspace, and then click **Select (2)** to proceed with publication.
 
     ![](../Images/image207a.png)
 
 1. The **Publishing to Power BI** dialog box opens. Once the process is complete, a success message displays.
   
-1. Click **Got it** to close the dialog box.
+1. Click **Got it** to close the dialog box and complete the publishing process.
 
     ![02](../Images/image400.png)
 
-1. Now that we have published the report to the Power BI service, let’s navigate back to the browser and start exploring. 
+1. Now that the report has been successfully published to the Power BI Service, switch to your web browser to begin exploring the published content.
     
-1. Once you are in the browser, in the left panel, notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace, you see **Reports** has the **DIAD Final Report**.
+1. Once you are in the browser, check the left panel, notice that under **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace, you see **Reports** has the **DIAD Final Report**.
 
     ![](../Images/113.png) 
 
@@ -438,7 +439,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![02](../Images/image310.png)
 
-1. Click **Back to report**.
+1. Click **Back to report** to return to the standard report view from Focus mode.
 
     ![alt text](../Images/image311.png)
   
@@ -458,13 +459,13 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 
     ![](../Images/pr30.png)          
   
-1. Click **Exit** in the **Bookmark** pane to close it.
+1. Click **Exit** in the **Bookmark** pane to close it and return to the full report view.
 
     ![](../Images/pb59.png) 
 
 1. Power BI provides an option to get quick insights into the complete dataset.
 
-1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** and then select the checkbox for **DIAD Final Report (2)** under **Report** type.
+1. In the left panel, click on **DIAD_<inject key="DeploymentID" enableCopy="false"/> (1)** to return to your workspace view, then select the checkbox for **DIAD Final Report (2)** under **Report** type to select it for analysis.
 
     ![](../Images/powerbinew_task3_step41.png) 
 
@@ -474,7 +475,7 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
   
     > 📌 **Note:** It might take a few minutes for the insights to be created. Once insights are ready, a message appears in the top right corner.
 
-1. Click **View insights**.
+1. Once insights are ready, click **View insights** to display the comprehensive insights report that Power BI has generated based on your data.
 
     ![](../Images/pb61.png)
   
