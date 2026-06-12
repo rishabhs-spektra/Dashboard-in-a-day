@@ -52,7 +52,6 @@ In this task, you will open a Power BI report, enable map visuals, adjust the mo
 
 1. Once the **DIAD_<inject key="DeploymentID" enableCopy="false"/>** workspace is created, navigate to **Manage Access (1)** to configure user permissions and access levels.
 
-
     ![](../Images/manageaccess.png)
 
 1. On the **Manage Access** window, click on **+Add people or groups (1)** to add new users or service principals to your workspace.
@@ -310,8 +309,8 @@ In this task, you will organize the Power BI dashboard by resizing tiles, adding
 1. Click the bottom right corner of the tile and move it diagonally to change the image size.
 
     ![02](../Images/image216.png)
-  
-    Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
+
+    > 📌 **Note:** Tiles can be of various sizes (1x1 to 5x5). Drag the tile using the bottom right corner to resize it. 
 
 1. Click the **Edit (1)** dropdown in the top-right corner of the dashboard and select **+ Add a tile (2)**.
 
