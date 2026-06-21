@@ -108,7 +108,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
      ![02](../Images/image101.png)
 
-1. Enter the temporary access password and click on **Sign in (2)**
+1. Enter the temporary access pass and click on **Sign in (2)**
 
    - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
 
@@ -133,7 +133,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
  
      ![image](../Images/GSlogin.png)
 
-3. Now enter the following temporary access password and click on **Sign in (2)**.
+3. Now enter the following temporary access pass and click on **Sign in (2)**.
  
    - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
